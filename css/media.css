@@ -1,0 +1,274 @@
+
+
+/* ------------- small device responsive ------------ */
+@media (max-width:576px) {
+	body{
+		overflow-x: hidden !important;
+	}
+	/* banner section responsive */
+	#banner {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.banner_text {
+		margin: 0 auto;
+	}
+
+	.banner_text p {
+		text-align: center;
+	}
+
+	.banner_text h1 {
+		text-align: center;
+	}
+
+	.banner_btn {
+		text-align: center;
+	}
+
+	.banner_img {
+		width: 200px;
+		height: 200px;
+		margin-top: 80px;
+	}
+
+	.banner_img::before {
+		width: 200px;
+		height: 200px;
+	}
+
+	.banner_img::after {
+		width: 200px;
+		height: 200px;
+	}
+
+	/* about section responsive */
+
+	.common_heading p {
+		font-size: 15px;
+	}
+
+	.common_heading h2 {
+		font-size: 30px;
+	}
+
+	.about_img {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.about_text {
+		margin-top: 40px;
+	}
+
+	.about_text p {
+		text-align: center;
+	}
+
+	.about_text span {
+		text-align: center;
+		display: block;
+	}
+
+	.about_text h6 {
+		text-align: center;
+	}
+
+	.about_btn {
+		text-align: center;
+	}
+
+	.about_btn a {
+		margin-bottom: 20px;
+	}
+
+
+	#about {
+		padding: 40px 0;
+	}
+
+	/* skill section responsive */
+	.skill_main a {
+		margin-bottom: 15px;
+	}
+
+	#experience {
+		padding: 0px;
+	}
+
+	/* Experience Section and Education Section Responsive: */
+
+	.ex_padding{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.ex_icon {
+		display: none;
+	}
+
+	.experience_item {
+		text-align: center !important;
+		margin-bottom:30px;
+	}
+
+	.experience_item:hover{
+		box-shadow:inset -5px -4px 4px #ffffff73,inset 5px 5px 5px #5e687949;
+	}
+
+	.ex_main::after{
+		display: none;
+	}
+
+	/* Testimonial Section Responsive */
+	.slider_btn {
+		margin-top: 0px;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Portfolio section responsive */
+	.filter_btn button {
+		margin-bottom: 15px;
+	}
+
+	.submit_btn {
+		text-align: center;
+	}
+}
+
+
+
+/* ------------- Medium  device responsive ------------ */
+@media (max-width:992px) {
+	/* html{
+		overflow-x: hidden;
+	} */
+	/* banner section responsive */
+	.banner_text {
+		margin: 0 auto;
+	}
+
+	.banner_text p {
+		text-align: center;
+	}
+
+	.banner_text h1 {
+		text-align: center;
+	}
+
+	.banner_btn {
+		text-align: center;
+	}
+
+	.banner_img {
+		width: 200px;
+		height: 200px;
+		margin-top: 100px;
+	}
+
+	.banner_img::before {
+		width: 200px;
+		height: 200px;
+	}
+
+	.banner_img::after {
+		width: 200px;
+		height: 200px;
+	}
+
+	/* about section responsive */
+
+	.common_heading p {
+		font-size: 15px;
+	}
+
+	.common_heading h2 {
+		font-size: 30px;
+	}
+
+	.about_img {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.about_text {
+		margin-top: 40px;
+	}
+
+	.about_text p {
+		text-align: center;
+	}
+
+	.about_text span {
+		text-align: center;
+		display: block;
+	}
+
+	.about_text h6 {
+		text-align: center;
+	}
+
+	.about_btn {
+		text-align: center;
+	}
+
+	.about_btn a {
+		margin-bottom: 20px;
+	}
+
+
+	#about {
+		padding: 40px 0;
+	}
+
+	/* skill section responsive */
+	.skill_main a {
+		margin-bottom: 15px;
+	}
+
+	#experience {
+		padding: 0px;
+	}
+
+	/* Experience Section and Education Section Responsive: */
+
+	.ex_padding{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.ex_icon {
+		display: none;
+	}
+
+	.experience_item {
+		text-align: center !important;
+		margin-bottom:30px;
+	}
+
+	.experience_item:hover{
+		box-shadow:inset -5px -4px 4px #ffffff73,inset 5px 5px 5px #5e687949;
+	}
+
+	.ex_main::after{
+		display: none;
+	}
+
+	/* Testimonial Section Responsive */
+	.slider_btn {
+		margin-top: 0px;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Portfolio section responsive */
+	.filter_btn button {
+		margin-bottom: 15px;
+	}
+
+	.submit_btn {
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,127 @@
+.style_switcher {
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    box-shadow: var(--outer-shadow);
+    width: 200px;
+    z-index: 111;
+    padding: 15px;
+    transition: 0.4s;
+    transform: translateX(100%);
+    border-radius: 5px;
+    transition: 04s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+.open{
+    transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    -moz-transform: translateX(-15px);
+    -ms-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+}
+
+.style_switcher .s-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: var(--text-black-900);
+    text-align: center;
+    line-height: 40px;
+    box-shadow: var(--outer-shadow);
+    border-radius: 50%;
+    right: 100%;
+    margin-right: 15px;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.style_switcher .style_toggoler {
+    top: 0;    
+}
+
+.style_switcher .style_toggoler i{
+    animation: spinx 2s linear infinite;
+}
+
+@keyframes spinx{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
+.style_switcher .day_night {
+    top: 55px;
+
+}
+
+.style_switcher h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-600);
+    margin: 0 0 10px;
+}
+
+.style_switcher .colors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.style_switcher .colors span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.style_switcher .color-1 {
+    background: #fb838e;
+}
+
+.style_switcher .color-2 {
+    background: #ec9412;
+}
+
+.style_switcher .color-3 {
+    background: #1fc586;
+}
+
+.style_switcher .color-4 {
+    background: #2eb1ed;
+}
+
+.style_switcher .color-5 {
+    background: #cc3a3b;
+}
