@@ -989,13 +989,11 @@ html {
 }
 
 
-.filter_text {}
-
 .show_btn{
     padding: 0px 10px;
-    background-color: green;
-    font-size: 13px;
+    background-color: #00BE16;
     color: #fff;
+    font-size: 13px;
     text-align: center;
     line-height: 20px;
     border-radius: 5px;
@@ -1004,6 +1002,12 @@ html {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+.show_btn:hover{
+    color:#fff;
+}
+
+
 .filter_text p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
