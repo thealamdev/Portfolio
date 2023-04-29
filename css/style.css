@@ -991,11 +991,25 @@ html {
 
 .filter_text {}
 
+.show_btn{
+    padding: 0px 10px;
+    background-color: green;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 .filter_text p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: var(--text-black-600);
     padding-top: 10px;
+    display: inline-block;
 }
 
 
